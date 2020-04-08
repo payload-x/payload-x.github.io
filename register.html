@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	REGISTER
+</title>
+<link rel="stylesheet" type="text/css" href="style4.css">
+ <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+	<div class="main">
+		<div class="form-box">
+		<div class="button-box">
+			<div id="btn"></div>
+			<button type="button" class="toggle-btn" onclick="Login()">Login</button>
+			<button type="button" class="toggle-btn" onclick="Register()">Register</button>
+               </div>
+         <form id="Login"class="input-grp"> 
+              <input type="text" class="input-field" placeholder="User Id" required>
+              <input type="text" class="input-field" placeholder="Enter Password" required>
+              <input type="checkbox" class="check-box"><span>Remember Password</span>
+              <button type="submit" class="submit-btn">Login</button>
+              </form>
+         <form id="Register"class="input-grp"> 
+              <input type="text" class="input-field" placeholder="User Id" required>
+              <input type="email" class="input-field" placeholder="Email" required>
+
+              <input type="text" class="input-field" placeholder="Enter Password" minlength="8" required >
+              <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+              <button type="submit" class="submit-btn">Register</button>
+              </form>
+		</div>
+	</div>
+
+	<script>
+		var x =document.getElementById("Login")
+		var y =document.getElementById("Register")
+		var z =document.getElementById("btn")
+function Register(){
+	x.style.left = "-400px"
+	y.style.left = "50px"
+	z.style.left = "110px"
+   }
+   function Login(){
+	x.style.left = "50px"
+	y.style.left = "450px"
+	z.style.left = "0"
+   }
+
+	</script>
+
+
+<div class="Back">
+	<a href="FISRT SITE.html">Go Back</a>
+		
+	</div>
+
+</body>
+</html>

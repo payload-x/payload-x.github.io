@@ -1,0 +1,130 @@
+/*put {
+  width: 100%;
+}*/
+body,
+html {
+	min-height: 100%;
+}
+body {
+	
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+ 
+h2 {
+	color: black;
+	text-align: center;
+	cursor: pointer;
+	 border-radius: 5px 20px 5px;
+  background: #95a5a6;
+  transition: 0.6s ease;
+}
+  
+ ul {
+  	float: right;
+  	list-style-type: none;
+  	margin-top: -10px
+  }
+ul li {
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #ccae62;
+	border-bottom-right-radius: 17px; 
+	
+  border: 3px solid transparent;
+	padding: 5px;
+	transition: 0.6s ease;
+
+}
+ul li a:hover{ 
+	background-color: #95a5a6;
+	color: #1e272e;
+
+}
+
+	.button{
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.btn{
+		border:1px solid #95a5a6;
+		padding: 10px 30px;
+		color: #fff;
+		text-decoration: none;
+		transition: 0.6s ease;
+	}
+    .btn:hover{
+    background-color: #d1ccc0;
+    color: #000;
+   }
+   .register a{
+	       border-radius: 68px 51px 34px 17px/17px 34px 51px 68px;
+	       border: 1px solid #d1ccc0;
+       padding: 10px 20px;
+	   color: #fff;
+	   text-decoration: none;
+	   transition: 0.6s ease;
+		}
+		.register a:hover{
+    background-color: #d1ccc0;
+    color: #000;
+		}
+		.social-menu ul {
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 15px;
+    line-height: 30px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
